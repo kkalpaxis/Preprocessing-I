@@ -208,8 +208,9 @@ header nav a {
   padding: 15px;
 }
 .two .work-history table {
-  width: 75%%;
-  height: auto;
+  width: 70%%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 .two .work-history th {
   font-weight: bold;
@@ -219,6 +220,7 @@ header nav a {
   text-align: center;
 }
 .two .contact h3 {
-  font-size: 30px;
+  font-size: 24px;
+  font-weight: bold;
   margin-bottom: 20px;
 }
