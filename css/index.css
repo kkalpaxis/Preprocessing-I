@@ -224,3 +224,21 @@ header nav a {
   font-weight: bold;
   margin-bottom: 20px;
 }
+@media (max-width: 500px) {
+  header nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 100px;
+  }
+  .one {
+    display: flex;
+    justify-content: center;
+  }
+  .one img {
+    display: none;
+  }
+  .one .intro {
+    height: 810px;
+  }
+}
