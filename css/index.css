@@ -187,3 +187,38 @@ header nav a {
   padding: 15px;
   padding-left: 30px;
 }
+.two {
+  display: flex;
+  flex-direction: column;
+}
+.two .work-history {
+  text-align: center;
+  justify-content: center;
+}
+.two .work-history h3 {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 15px;
+}
+.two .work-history table,
+.two .work-history th,
+.two .work-history td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 15px;
+}
+.two .work-history table {
+  width: 75%%;
+  height: auto;
+}
+.two .work-history th {
+  font-weight: bold;
+}
+.two .contact {
+  padding: 15px;
+  text-align: center;
+}
+.two .contact h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
