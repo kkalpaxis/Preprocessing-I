@@ -147,22 +147,43 @@ header nav {
 }
 header nav a {
   padding: 25px;
-  margin-right: 75px;
+  margin-right: 100px;
   color: black;
 }
 .one {
   display: flex;
   justify-content: space-between;
 }
-.intro {
+.one img {
+  width: 410px;
+  height: 615px;
+  margin-left: 75px;
+}
+.one .intro {
+  width: 800px;
   flex-wrap: wrap;
   height: 615px;
   border: 2px solid black;
   padding: 20px;
   margin-right: 75px;
 }
-img {
-  width: 410px;
-  height: 615px;
-  margin-left: 75px;
+.one .text-content h1 {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 15px;
+  text-align: center;
+}
+.one .text-content h3 {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 15px;
+}
+.one .text-content p {
+  font-size: 18px;
+  padding: 15px;
+}
+.one ul {
+  list-style-type: circle;
+  padding: 15px;
+  padding-left: 30px;
 }

@@ -72,29 +72,61 @@ header{
 
 	nav a{
 		padding: 25px;
-		margin-right: 75px;
+		margin-right: 100px;
 		color: black;
 	}
 }
 
-.one{ 
+@padding: 15px;
+
+.one { 
 	display: flex;
 	justify-content: space-between;
+
+	img{
+		width: 410px;
+		height: 615px;
+		margin-left: 75px;
+	}
+
+	.intro{
+		width: 800px;
+		flex-wrap: wrap;
+		height: 615px;
+		border: 2px solid black;
+		padding: @padding + 5px;
+		margin-right: 75px;
+	}
+
+	.text-content h1{
+		font-size: 30px;
+		font-weight: bold;
+		padding: @padding;
+		text-align: center;
+	}
+
+	.text-content h3{
+		font-size: 24px;
+		font-weight: bold;
+		padding: @padding;
+	}
+
+	.text-content p{
+		font-size: 18px;
+		padding: @padding;
+	}	
+
+	ul {
+		list-style-type: circle;
+		padding: @padding;
+		padding-left: @padding + 15px;
+	}
 }
 
-.intro{
-	flex-wrap: wrap;
-	height: 615px;
-	border: 2px solid black;
-	padding: 20px;
-	margin-right: 75px;
-  }
 
-img{
-	width: 410px;
-	height: 615px;
-	margin-left: 75px;
-}
+
+
+
 
 
 
