@@ -135,5 +135,18 @@ body {
   height: 100%;
 }
 body {
-  background-color: maroon;
+  background-color: #ffffff;
+}
+header {
+  font-family: 'Slabo 27px', serif;
+  font-size: 24px;
+}
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+header nav a {
+  padding: 25px;
+  margin-right: 10px;
+  color: black;
 }
