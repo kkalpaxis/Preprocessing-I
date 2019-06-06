@@ -57,3 +57,136 @@ html, body {
     height: 100%;
 }
 
+body{
+	background-color: #ffffff;
+	font-family: 'Slabo 27px', serif;
+}
+
+header{
+	font-size: 24px;
+
+	nav{
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	nav a{
+		padding: 25px;
+		margin-right: 100px;
+		color: black;
+	}
+}
+
+@padding: 15px;
+
+.one { 
+	display: flex;
+	justify-content: space-between;
+
+	img{
+		width: 410px;
+		height: 615px;
+		margin-left: 75px;
+	}
+
+	.intro{
+		width: 800px;
+		flex-wrap: wrap;
+		height: 615px;
+		border: 2px solid black;
+		padding: @padding + 5px;
+		margin-right: 75px;
+	}
+
+	.text-content h1{
+		font-size: 30px;
+		font-weight: bold;
+		padding: @padding;
+		text-align: center;
+	}
+
+	.text-content h3{
+		font-size: 24px;
+		font-weight: bold;
+		padding: @padding;
+	}
+
+	.text-content p{
+		font-size: 18px;
+		padding: @padding;
+	}	
+
+	ul {
+		list-style-type: circle;
+		padding: @padding;
+		padding-left: @padding + 15px;
+	}
+}
+
+.two{
+	display: flex;
+	flex-direction: column;
+
+	.work-history{
+		text-align: center;
+		justify-content: center;
+		
+		h3{
+			font-size: 24px;
+			font-weight: bold;
+			padding: @padding;
+		}
+
+		table, th, td {
+			border: 1px solid black;
+			text-align: center;
+			padding: @padding;
+		}
+	
+		table{
+			width: 70%%;
+			margin-left: 15%;
+			margin-right: 15%;
+		}
+	
+		th{
+			font-weight: bold;
+		}
+	}
+
+	.contact{
+		padding: @padding;
+		text-align: center;
+
+		h3{
+			font-size: 24px;
+			font-weight: bold;
+			margin-bottom: 20px;
+		}
+	}
+}
+
+@media (max-width:500px){
+
+	header nav{
+		display: flex;
+		flex-direction: column;
+		text-align: center;	
+		margin-left: 100px;
+	}
+
+
+	.one{
+		display: flex;
+		justify-content: center;
+
+		img{
+			display: none;
+		}
+
+		.intro{
+			height: 810px;
+		}
+
+	}	
+}
